@@ -1,0 +1,228 @@
+{
+    "certificateData": [
+        {
+            "placeholder": "[NOME_DO_ESTUDANTE]",
+            "value": "John Doe Bar"
+        },
+        {
+            "placeholder": "[CARGA_HORARIA]",
+            "value": "40 horas"
+        },
+        {
+            "placeholder": "[NOME_DO_CURSO]",
+            "value": "Mathematics for Programmers"
+        },
+        {
+            "placeholder": "[DATA_DE_INICIO]",
+            "value": "1/1/2020"
+        },
+        {
+            "placeholder": "[DATA_DE_TERMINO]",
+            "value": "2/2/2020"
+        },
+        {
+            "placeholder": "[ASSINATURA_1]",
+            "value": "Foo Bar"
+        },
+        {
+            "placeholder": "[NOME_DO_PROFESSOR]",
+            "value": "Lorem Ipsum"
+        },
+        {
+            "placeholder": "[ASSINATURA_2]",
+            "value": "Bar Foo"
+        },
+        {
+            "placeholder": "[DATA_EMISSAO]",
+            "value": "25/08/2020"
+        }
+    ],
+    "certificateTemplate": {
+        "background": "https://picsum.photos/845",
+        "fields": [
+            {
+                "id": 10,
+                "styles": {
+                    "position": "absolute",
+                    "width": "150px"
+                },
+                "img": "",
+                "name": "Assinatura 01",
+                "position": {
+                    "x": 472.5,
+                    "y": 430
+                },
+                "widthCenter": 472.5,
+                "open": true,
+                "height": 45
+            },
+            {
+                "id": 11,
+                "styles": {
+                    "position": "absolute",
+                    "width": "150px"
+                },
+                "img": "",
+                "name": "Assinatura 02",
+                "position": {
+                    "x": 232.5,
+                    "y": 440
+                },
+                "widthCenter": 232.5,
+                "open": true,
+                "height": 45
+            },
+            {
+                "id": 0,
+                "styles": {
+                    "position": "absolute",
+                    "width": "300px"
+                },
+                "name": "Certificado de conclusão",
+                "position": {
+                    "x": 272.5,
+                    "y": 30
+                },
+                "widthCenter": 272.5,
+                "value": "<h1 class=\"ql-align-center\"><strong style=\"color: rgb(0, 102, 204);\" class=\"ql-font-Montserrat\">Certificado</strong></h1><h4 class=\"ql-align-center\"><span class=\"ql-font-Montserrat\">DE CONCLUSÃO</span></h4>",
+                "open": true,
+                "height": 109
+            },
+            {
+                "id": 1,
+                "styles": {
+                    "position": "absolute",
+                    "width": "400px"
+                },
+                "name": "Nome curso",
+                "value": "<p class=\"ql-align-center\"><span style=\"color: rgb(187, 187, 187);\" class=\"ql-font-Montserrat\">Curso [NOME_DO_CURSO] será inserido aqui</span></p>",
+                "position": {
+                    "x": 222.5,
+                    "y": 130
+                },
+                "widthCenter": 222.5,
+                "open": true,
+                "height": 40
+            },
+            {
+                "id": 2,
+                "styles": {
+                    "position": "absolute",
+                    "width": "540px"
+                },
+                "name": "Nome do aluno",
+                "value": "<h1 class=\"ql-align-center\"><span style=\"color: rgb(0, 71, 178);\" class=\"ql-font-Montserrat\">[NOME_DO_ESTUDANTE]</span></h1>",
+                "position": {
+                    "x": 152.5,
+                    "y": 170
+                },
+                "widthCenter": 152.5,
+                "divider": {
+                    "styles": {
+                        "position": "absolute",
+                        "width": "540px"
+                    },
+                    "name": "Linha nome do aluno",
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "widthCenter": 0,
+                    "open": true
+                },
+                "open": true,
+                "height": 79
+            },
+            {
+                "id": 3,
+                "styles": {
+                    "position": "absolute",
+                    "width": "400px"
+                },
+                "name": "Concluiu curso",
+                "position": {
+                    "x": 222.5,
+                    "y": 250
+                },
+                "widthCenter": 222.5,
+                "value": "<p class=\"ql-align-center\"><span style=\"color: rgb(187, 187, 187);\" class=\"ql-font-Montserrat\">Concluiu o curso de nome [NOME_DO_CURSO] com carga horária de [CARGA_HORARIA] </span></p><p class=\"ql-align-center\"><span style=\"color: rgb(187, 187, 187);\" class=\"ql-font-Montserrat\">no período entre [DATA_DE_INICIO] E [DATA_DE_TERMINO]</span></p><p class=\"ql-align-center\"><span style=\"color: rgb(187, 187, 187);\" class=\"ql-font-Montserrat\"> assistido pelo professor [NOME_DO_PROFESSOR]</span></p>",
+                "open": true,
+                "height": 88
+            },
+            {
+                "id": 4,
+                "styles": {
+                    "position": "absolute",
+                    "width": "180px"
+                },
+                "name": "Data emissão",
+                "value": "<p class=\"ql-align-center\"><span style=\"color: rgb(0, 71, 178);\" class=\"ql-font-Montserrat\">[DATA_EMISSAO]</span></p>",
+                "position": {
+                    "x": 332.5,
+                    "y": 380
+                },
+                "widthCenter": 332.5,
+                "open": true,
+                "height": 40
+            },
+            {
+                "id": 5,
+                "styles": {
+                    "position": "absolute",
+                    "width": "200px"
+                },
+                "name": "Professor 01",
+                "value": "<p class=\"ql-align-center\"><span style=\"color: rgb(136, 136, 136);\" class=\"ql-font-Montserrat\">[ASSINATURA_1]</span></p>",
+                "position": {
+                    "x": 202.5,
+                    "y": 490
+                },
+                "widthCenter": 202.5,
+                "divider": {
+                    "styles": {
+                        "position": "absolute",
+                        "width": "200px"
+                    },
+                    "name": "Linha assinatura professor 01",
+                    "position": {
+                        "x": 0,
+                        "y": -40
+                    },
+                    "widthCenter": 0,
+                    "open": true
+                },
+                "open": true,
+                "height": 40
+            },
+            {
+                "id": 6,
+                "styles": {
+                    "position": "absolute",
+                    "width": "200px"
+                },
+                "name": "Professor 02",
+                "value": "<p class=\"ql-align-center\"><span style=\"color: rgb(136, 136, 136);\" class=\"ql-font-Montserrat\">[ASSINATURA_2]</span></p>",
+                "position": {
+                    "x": 442.5,
+                    "y": 490
+                },
+                "widthCenter": 442.5,
+                "divider": {
+                    "styles": {
+                        "position": "absolute",
+                        "width": "200px"
+                    },
+                    "name": "Linha assinatura professor 02",
+                    "position": {
+                        "x": 0,
+                        "y": -40
+                    },
+                    "widthCenter": 422.5,
+                    "open": true
+                },
+                "open": true,
+                "height": 40
+            }
+        ]
+    }
+}
