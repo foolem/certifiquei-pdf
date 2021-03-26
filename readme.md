@@ -28,7 +28,6 @@ Certifiquei certificate issuer microservice.
 **Notice:**
 
 -   Application runs at `http://localhost:8080` via Docker;
--   API documentation available at Postman (Certifiquei Workspace).
 
 ### Testing
 
